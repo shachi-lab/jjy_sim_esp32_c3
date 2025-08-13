@@ -81,4 +81,4 @@ wire_compat.h              // ESP32-C3 用の I2C バス互換ヘッダ
 ## 🔗 関連リンク
 
 - ブログ記事（詳細解説＋ケースや基板配布）  
-  👉 https://blog.shachi-lab.com/032_jjy_simulator/
+  👉 https://blog.shachi-lab.com/033_jjy_simulator/
