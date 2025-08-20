@@ -10347,7 +10347,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "1nF"
 			(at 228.6 156.21 0)
 			(effects
 				(font
@@ -12699,7 +12699,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "1nF"
 			(at 219.71 156.21 0)
 			(effects
 				(font
@@ -14162,34 +14162,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Device:R")
 		(at 205.74 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e350ace5-66f4-4d40-92e8-75a0f36614f3")
-		(property "Reference" "C5"
-			(at 207.01 151.13 0)
+		(uuid "e1b2e323-5702-4fd7-9d00-c92ff147e56e")
+		(property "Reference" "R18"
+			(at 208.28 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
-			(at 207.01 156.21 0)
+		(property "Value" "100k"
+			(at 205.74 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 206.7052 157.48 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 203.962 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14216,15 +14214,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "efea10f0-306b-44ea-94a5-ffda05cce3a8")
+			(uuid "09dcdbbd-4570-4383-a000-8127a22f9dc1")
 		)
 		(pin "1"
-			(uuid "d53803f4-36ce-4112-a550-ae075a61aea7")
+			(uuid "e4d8e7cb-1c74-4e17-97a3-1d2908969479")
 		)
 		(instances
 			(project "jjy_sim_esp32_c3"
 				(path "/e25ad002-4691-4057-a0e9-472916ce3092"
-					(reference "C5")
+					(reference "R18")
 					(unit 1)
 				)
 			)
